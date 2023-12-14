@@ -139,7 +139,7 @@ int main() {
 
     
     std::cout << "------SHA-256 Hash: " << hash << std::endl;
-    std::cout << "------Input Text:------\n" << message << "\n-----------------------\n";
+    
 
     return 0;
 }
