@@ -129,7 +129,7 @@ std::string SHA256::getResult() {
 int main() {
     SHA256 sha256;
 
-    std::cout << "Enter messages (Ctrl+D (Unix) or Ctrl+Z (Windows) to finish):\n";
+    std::cout << "Enter the input message";
 
     // Read the complete input from stdin
     std::istreambuf_iterator<char> begin(std::cin), end;
@@ -138,7 +138,7 @@ int main() {
     std::string hash = sha256.hash(message);
 
     
-    std::cout << "------SHA-256 Hash: " << hash << std::endl;
+    std::cout << "\nSHA-256 Hash : " << hash << std::endl;
     
 
     return 0;
